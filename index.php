@@ -45,8 +45,8 @@ session_start();
 
 
                 <div class="wrapper">
-                  <input type="radio" name="Student" id="option-1" >
-                  <input type="radio" name="Admin" id="option-2">
+                  <input type="radio" name="role" value="Student" id="option-1" checked >
+                  <input type="radio" name="role" value="Admin" id="option-2">
                     <label for="option-1" class="option option-1">
                       <div class="dot"></div>
                         <span>Student</span>

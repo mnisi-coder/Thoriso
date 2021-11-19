@@ -10,7 +10,7 @@ include "nav.php";
   <div class="booking ">
   <div class="cards-list">
   
-  <div class="card 1 bg-transparent " style="width:50%; display:flex; justify-content:center; margin-left:25%; color:white; margin-top:5%;">
+  <div class="card 1 bg-transparent " style="width:50%; display:flex; justify-content:center; margin-left:25%;color:white; margin-top:5%;">
   <form  class="was-validated" action="formData" method="POST">
 
 

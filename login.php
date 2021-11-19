@@ -56,7 +56,7 @@ if($_POST['role'] == "Admin")
 	$uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 	//header("location:http://$host$uri/$extra");
 	 echo '<script language="javascript">
-			document.location="signin";
+			document.location="index";
 		</script>';
 		
 	exit();
@@ -113,7 +113,7 @@ if($_POST['role'] == "Admin")
 	$uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 	//header("location:http://$host$uri/$extra");
 	 echo '<script language="javascript">
-			document.location="signin";
+			document.location="index";
 		</script>';
 		
 	exit();
