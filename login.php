@@ -4,7 +4,7 @@ session_start();
 require("dbconnection.php");
 					
 
-if($_POST['role'])
+if($_POST['role'] == "Admin")
 {
 
 	$password=$_POST['password'];
@@ -63,7 +63,7 @@ if($_POST['role'])
 	}
 
 
-}else{
+}else if($_POST['role'] == "Student"){
 	$password=$_POST['password'];
 	$dec_password=md5($password);
 //$dec_password=$password;

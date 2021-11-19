@@ -42,6 +42,21 @@ session_start();
                   <label for="login-password">Password</label>
                   <input id="login-password" name="password" type="password" required>
                 </div>
+
+
+                <div class="wrapper">
+                  <input type="radio" name="Student" id="option-1" >
+                  <input type="radio" name="Admin" id="option-2">
+                    <label for="option-1" class="option option-1">
+                      <div class="dot"></div>
+                        <span>Student</span>
+                        </label>
+                    <label for="option-2" class="option option-2">
+                      <div class="dot"></div>
+                        <span>Admin</span>
+                    </label>
+                </div>
+
               </fieldset>
               <button type="submit" class="btn-login">Login</button>
             </form>
