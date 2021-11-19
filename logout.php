@@ -6,7 +6,7 @@ session_unset();
 $_SESSION['action1']="You have logged out successfully..!";
 ?>
 <script language="javascript">
-document.location="signin";
+document.location="index";
 </script>
 
 
