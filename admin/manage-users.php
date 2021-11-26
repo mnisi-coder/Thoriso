@@ -96,7 +96,7 @@ echo "<script>alert('Data deleted');</script>";
 												  
 													echo'<td>';
 
-														 echo'<a href="update-profile.php?uid='.$row['email'].'"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>'; 
+												
 
 
 														 echo '<a href="deleteUser.php?id='.$row['email'].'">';

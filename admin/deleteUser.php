@@ -1,7 +1,7 @@
 <?php
 session_start();
 include'dbconnection.php';
-		$query = "DELETE FROM users WHERE email='".$_GET['id']."'";
+		$query = "DELETE FROM student WHERE email='".$_GET['id']."'";
 		
 		
 		if (!mysqli_query($con, $query))
